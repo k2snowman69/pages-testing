@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "declaration": false,
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "jsx": "react",
+    "lib": ["WebWorker", "DOM", "ES2020"],
+    "module": "ES2020",
+    "moduleResolution": "Node",
+    "outDir": "./docs",
+    "rootDirs": ["./src"],
+    "sourceMap": true,
+    "target": "ES2020"
+  },
+  "extends": "./node_modules/@snowcoders/renovate-config/tsconfig.website.browser.prod.json",
+  "include": ["src", "mocks"]
+}

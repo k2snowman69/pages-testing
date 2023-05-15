@@ -1,0 +1,5 @@
+# Locally generated files
+coverage
+docs
+node_modules
+*.log
